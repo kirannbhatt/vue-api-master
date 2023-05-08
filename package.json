@@ -1,6 +1,6 @@
 {
   "name": "@basecode/vue-api",
-  "version": "0.0.145",
+  "version": "0.0.146",
   "description": "Paquete de funciones para consumir las API de ASEA en proyectos Vue",
   "main": "index.js",
   "scripts": {
