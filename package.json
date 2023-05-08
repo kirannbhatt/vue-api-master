@@ -1,0 +1,33 @@
+{
+  "name": "@basecode/vue-api",
+  "version": "0.0.145",
+  "description": "Paquete de funciones para consumir las API de ASEA en proyectos Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-and-publish-npm": "npm version patch && npm publish && echo $npm_package_version",
+    "build-and-publish-git": "echo 'Publicando en git la versión =>' $npm_package_version && git add . && git commit -m 'v'$npm_package_version && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.excellerize.com:basecode/front-end-vue/vue-npm/vue-api.git"
+  },
+  "publishConfig": {
+    "@basecode:registry": "https://gitlab.excellerize.com/api/v4/projects/280/packages/npm/"
+  },
+  "keywords": [
+    "api",
+    "axios"
+  ],
+  "author": "ASEA",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/eslint-parser": "^7.18.9",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.21.0"
+  }
+}
