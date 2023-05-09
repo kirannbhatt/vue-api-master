@@ -10,10 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.excellerize.com:basecode/front-end-vue/vue-npm/vue-api.git"
-  },
-  "publishConfig": {
-    "@basecode:registry": "https://gitlab.excellerize.com/api/v4/projects/280/packages/npm/"
+    "url": "git@github.com:kirannbhatt/vue-api-master.git"
   },
   "keywords": [
     "api",
